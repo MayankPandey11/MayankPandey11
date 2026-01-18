@@ -1,5 +1,75 @@
-# 💫 About Me:
-👨‍💻 About Me<br><br>🔭 I’m currently working on<br>Product Lifecycle Management (PLM) software as an Intern at SteepGraph Systems Pvt. Ltd., where I work extensively with Aras Innovator. My role involves customization and development using C#, .NET, and JavaScript, handling backend logic, REST API integrations, and database operations with MySQL Server in an enterprise environment.<br><br>👯 I’m looking to collaborate on<br>Java and Spring Boot backend projects, full-stack web applications, enterprise software solutions, and projects involving REST APIs, databases, and real-world business workflows.<br><br>🤝 I’m looking for help with<br>Advanced backend architecture, system design, and best practices for building scalable, maintainable enterprise-grade applications.<br><br>🌱 I’m currently learning<br>Advanced Java and Spring Boot internals, Hibernate/JPA optimizations, MERN stack development, and deeper PLM customization concepts using Aras Innovator.<br><br>💬 Ask me about<br>Java, Spring Boot, Hibernate/JPA, REST APIs, SQL, MERN stack, C#, .NET, Aras Innovator PLM, Git, and backend development.<br><br>⚡ Fun fact<br>I’ve solved 300+ coding problems on platforms like LeetCode and GeeksforGeeks, which has strengthened my problem-solving and logical thinking skills 🚀
+<!-- ================= ABOUT ME SECTION ================= -->
+<div style="
+  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+  border-radius: 14px;
+  padding: 26px 28px;
+  color: #e6edf3;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  line-height: 1.65;
+">
+
+  <h2 style="
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #7ee787;
+    letter-spacing: 0.5px;
+  ">
+    💫 About Me
+  </h2>
+
+  <p style="font-size: 14.5px; color: #c9d1d9; margin-bottom: 18px;">
+    <b style="color:#79c0ff;">👨‍💻 About Me</b>
+  </p>
+
+  <p>
+    <b style="color:#ffa657;">🔭 I’m currently working on</b><br/>
+    Product Lifecycle Management (PLM) software as an <b>Intern at SteepGraph Systems Pvt. Ltd.</b>, working extensively with <b>Aras Innovator</b>. 
+    I contribute to customization and development using <b>C#, .NET, and JavaScript</b>, handle backend logic, REST API integrations, 
+    and manage database operations with <b>MySQL Server</b> in an enterprise environment.
+  </p>
+
+  <p>
+    <b style="color:#a5d6ff;">👯 I’m looking to collaborate on</b><br/>
+    Java and Spring Boot backend projects, full-stack web applications, enterprise software solutions, 
+    and projects involving REST APIs, databases, and real-world business workflows.
+  </p>
+
+  <p>
+    <b style="color:#ffb4b4;">🤝 I’m looking for help with</b><br/>
+    Advanced backend architecture, system design, and best practices for building scalable, 
+    maintainable enterprise-grade applications.
+  </p>
+
+  <p>
+    <b style="color:#7ee787;">🌱 I’m currently learning</b><br/>
+    Advanced Java and Spring Boot internals, Hibernate/JPA optimizations, MERN stack development, 
+    and deeper PLM customization concepts using Aras Innovator.
+  </p>
+
+  <p>
+    <b style="color:#d2a8ff;">💬 Ask me about</b><br/>
+    Java, Spring Boot, Hibernate/JPA, REST APIs, SQL, MERN stack, C#, .NET, Aras Innovator PLM, Git, 
+    and backend development.
+  </p>
+
+  <p style="
+    margin-bottom: 0;
+    padding: 12px 14px;
+    background: rgba(255,255,255,0.06);
+    border-left: 4px solid #f78166;
+    border-radius: 6px;
+  ">
+    <b style="color:#f78166;">⚡ Fun fact</b><br/>
+    I’ve solved <b>300+</b> coding problems on platforms like <b>LeetCode</b> and <b>GeeksforGeeks</b>, 
+    strengthening my problem-solving and logical thinking skills 🚀
+  </p>
+
+</div>
+<!-- ================= END ABOUT ME ================= -->
+
 
 
 ## 🌐 Socials:
