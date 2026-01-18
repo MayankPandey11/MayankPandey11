@@ -1,74 +1,154 @@
-<!-- ================= ABOUT ME SECTION ================= -->
+<!-- ================= ULTRA COLORFUL ABOUT ME ================= -->
 <div style="
-  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
-  border-radius: 14px;
-  padding: 26px 28px;
-  color: #e6edf3;
+  background:
+    radial-gradient(circle at top left, rgba(255,0,150,0.25), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(0,255,255,0.25), transparent 45%),
+    linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  border-radius: 22px;
+  padding: 34px 36px;
+  color: #ffffff;
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-  line-height: 1.65;
+  box-shadow:
+    0 20px 45px rgba(0,0,0,0.65),
+    inset 0 0 0 1px rgba(255,255,255,0.08);
+  line-height: 1.75;
+  position: relative;
+  overflow: hidden;
 ">
 
+  <!-- Glow Border -->
+  <div style="
+    position:absolute;
+    inset:0;
+    border-radius:22px;
+    padding:1.5px;
+    background: linear-gradient(120deg, #ff00cc, #3333ff, #00f2fe, #ffdd00);
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events:none;
+  "></div>
+
+  <!-- Title -->
   <h2 style="
     margin-top: 0;
-    margin-bottom: 18px;
-    font-size: 26px;
-    font-weight: 700;
-    color: #7ee787;
-    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.2px;
+    background: linear-gradient(90deg, #ffdd00, #00f2fe, #ff4ecd, #7cffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 18px rgba(0,242,254,0.35);
   ">
     💫 About Me
   </h2>
 
-  <p style="font-size: 14.5px; color: #c9d1d9; margin-bottom: 18px;">
-    <b style="color:#79c0ff;">👨‍💻 About Me</b>
-  </p>
-
-  <p>
-    <b style="color:#ffa657;">🔭 I’m currently working on</b><br/>
-    Product Lifecycle Management (PLM) software as an <b>Intern at SteepGraph Systems Pvt. Ltd.</b>, working extensively with <b>Aras Innovator</b>. 
-    I contribute to customization and development using <b>C#, .NET, and JavaScript</b>, handle backend logic, REST API integrations, 
-    and manage database operations with <b>MySQL Server</b> in an enterprise environment.
-  </p>
-
-  <p>
-    <b style="color:#a5d6ff;">👯 I’m looking to collaborate on</b><br/>
-    Java and Spring Boot backend projects, full-stack web applications, enterprise software solutions, 
-    and projects involving REST APIs, databases, and real-world business workflows.
-  </p>
-
-  <p>
-    <b style="color:#ffb4b4;">🤝 I’m looking for help with</b><br/>
-    Advanced backend architecture, system design, and best practices for building scalable, 
-    maintainable enterprise-grade applications.
-  </p>
-
-  <p>
-    <b style="color:#7ee787;">🌱 I’m currently learning</b><br/>
-    Advanced Java and Spring Boot internals, Hibernate/JPA optimizations, MERN stack development, 
-    and deeper PLM customization concepts using Aras Innovator.
-  </p>
-
-  <p>
-    <b style="color:#d2a8ff;">💬 Ask me about</b><br/>
-    Java, Spring Boot, Hibernate/JPA, REST APIs, SQL, MERN stack, C#, .NET, Aras Innovator PLM, Git, 
-    and backend development.
-  </p>
-
-  <p style="
-    margin-bottom: 0;
-    padding: 12px 14px;
-    background: rgba(255,255,255,0.06);
-    border-left: 4px solid #f78166;
-    border-radius: 6px;
+  <!-- Intro Badge -->
+  <div style="
+    text-align:center;
+    margin-bottom: 26px;
   ">
-    <b style="color:#f78166;">⚡ Fun fact</b><br/>
-    I’ve solved <b>300+</b> coding problems on platforms like <b>LeetCode</b> and <b>GeeksforGeeks</b>, 
-    strengthening my problem-solving and logical thinking skills 🚀
-  </p>
+    <span style="
+      display:inline-block;
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      background: linear-gradient(135deg, rgba(255,255,255,0.22), rgba(255,255,255,0.08));
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
+    ">
+      👨‍💻 Software Developer • PLM • Full-Stack
+    </span>
+  </div>
+
+  <!-- Section Block -->
+  <div style="margin-bottom: 22px;">
+    <div style="
+      font-weight: 700;
+      color: #00f2fe;
+      margin-bottom: 6px;
+      font-size: 16px;
+    ">🔭 I’m currently working on</div>
+    <div style="color:#e6edf3;">
+      Product Lifecycle Management (PLM) software as an <b style="color:#ffdd00;">Intern at SteepGraph Systems Pvt. Ltd.</b>,
+      working extensively with <b style="color:#ff7ad9;">Aras Innovator</b>.
+      I contribute to customization and development using
+      <span style="color:#90caf9;">C#, .NET, and JavaScript</span>,
+      handle backend logic, REST API integrations, and manage database operations
+      using <span style="color:#7cffcb;">MySQL Server</span> in an enterprise environment.
+    </div>
+  </div>
+
+  <div style="margin-bottom: 22px;">
+    <div style="font-weight:700;color:#ff9ff3;margin-bottom:6px;font-size:16px;">
+      👯 I’m looking to collaborate on
+    </div>
+    <div style="color:#e6edf3;">
+      Java and Spring Boot backend projects, full-stack web applications,
+      enterprise software solutions, and projects involving REST APIs,
+      databases, and real-world business workflows.
+    </div>
+  </div>
+
+  <div style="margin-bottom: 22px;">
+    <div style="font-weight:700;color:#ff6b6b;margin-bottom:6px;font-size:16px;">
+      🤝 I’m looking for help with
+    </div>
+    <div style="color:#e6edf3;">
+      Advanced backend architecture, system design, and best practices
+      for building scalable, maintainable enterprise-grade applications.
+    </div>
+  </div>
+
+  <div style="margin-bottom: 22px;">
+    <div style="font-weight:700;color:#1dd1a1;margin-bottom:6px;font-size:16px;">
+      🌱 I’m currently learning
+    </div>
+    <div style="color:#e6edf3;">
+      Advanced Java and Spring Boot internals, Hibernate/JPA optimizations,
+      MERN stack development, and deeper PLM customization concepts using
+      Aras Innovator.
+    </div>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <div style="font-weight:700;color:#c77dff;margin-bottom:6px;font-size:16px;">
+      💬 Ask me about
+    </div>
+    <div style="color:#e6edf3;">
+      Java, Spring Boot, Hibernate/JPA, REST APIs, SQL, MERN stack,
+      C#, .NET, Aras Innovator PLM, Git, and backend development.
+    </div>
+  </div>
+
+  <!-- Fun Fact Card -->
+  <div style="
+    margin-top: 24px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    background:
+      linear-gradient(135deg, rgba(255,221,0,0.25), rgba(255,0,204,0.15));
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,0.25),
+      0 8px 22px rgba(0,0,0,0.4);
+  ">
+    <div style="font-weight:800;color:#ffdd00;font-size:16px;margin-bottom:6px;">
+      ⚡ Fun fact
+    </div>
+    <div style="color:#ffffff;">
+      I’ve solved <b style="color:#00f2fe;">300+</b> coding problems on
+      <b>LeetCode</b> and <b>GeeksforGeeks</b>,
+      sharpening my problem-solving and logical thinking skills 🚀
+    </div>
+  </div>
 
 </div>
-<!-- ================= END ABOUT ME ================= -->
+<!-- ================= END ULTRA COLORFUL ABOUT ME ================= -->
+
 
 
 
